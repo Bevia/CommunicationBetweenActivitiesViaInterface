@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vincentbevia.interfacecomm.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/myToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/myToolbar"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="First Activity!" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:onClick="goToSecondActivity"
+            android:text="Test Interface"
+            android:textAlignment="center"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/White" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginTop="40dp"
+            android:lineSpacingMultiplier="1.4"
+            android:onClick="reinstateToolbarTitle"
+            android:text="Reinstate Toolbar\ntitle"
+            android:textAlignment="center"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/White" />
+
+    </LinearLayout>
+</RelativeLayout>

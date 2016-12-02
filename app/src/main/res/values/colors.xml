@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <color name="colorPrimary">#FF7E03</color>
+    <color name="colorPrimaryDark">#FF7E03</color>
+    <color name="colorAccent">#FF7E03</color>
+    <color name="colorAccentAlpha">#FF7E03</color>-->
+
+    <color name="colorPrimary">#283593</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#283593</color>
+
+    <color name="White">#FFFFFF</color>
+    <color name="ghostwhite">#F8F8FF</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="navyblue">#000080</color>
+    <color name="neonblue">#67C8FF</color>
+    <color name="steelblue">#4F94CD</color>
+</resources>
